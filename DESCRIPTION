@@ -1,0 +1,14 @@
+Package: hashstr2i
+Type: Package
+Title: Computes a hash of string to integer modulo n
+Version: 0.0.1
+Date: 2017-12-02
+Author: Dai ZJ
+Maintainer: Dai ZJ <dzj@analytixware.com>
+Description: Computes a hash of string to integer modulo n. The aim of
+        hash is not crytographic but rather aimed assign an integer
+        group to strings.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.14)
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1

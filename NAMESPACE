@@ -1,0 +1,3 @@
+useDynLib(hashstr2i, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
